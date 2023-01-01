@@ -7,9 +7,9 @@ from hexbytes import HexBytes
 w3 = web3.Web3(web3.Web3.HTTPProvider("https://bsc-dataseed.binance.org/"))
 
 # Set the contract address and function data
-contract_address = HexBytes(0x22f77fb41fd0d2a4ea99f2719d1180afc2a74484)
+contract_address = HexBytes(0x22f77fb4........2a74484)
 # Change data for you new unstake transaction
-data = HexBytes(0x2e17de7800000000000000000000000000000000000000000000005150ae84a8cdf00000)
+data = HexBytes(0x2e17de........00000)
 
 # Load the private keys from a file
 with open("private_keys.txt", "r") as f:
